@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            CALCULATOR
+        </title>
+        <style>
+          .CALCULATOR{
+            display:grid;
+                place-items: center;
+                min-height: 100vh;
+ 
+          }
+        </style>
+        
+     
+    </head>
+    <body style="background-color: aqua;">
+        <div class="CALCULATOR">
+<center>
+        <h1>CALCULATOR</h1>
+        <form name="form1" id="calc">
+            <input id="calc" type="text" name="result" style="width: 173px; height: 30px;">
+<br><br>    
+            <input type="button" value="1" onclick="form1.result.value=form1.result.value+'1'" style=" width:40px; height:40px;">
+            <input type="button" value="2" onclick="form1.result.value=form1.result.value+'2'"style=" width:40px; height:40px;">
+            <input type="button" value="3" onclick="form1.result.value=form1.result.value+'3'"style=" width:40px; height:40px;">
+            <input type="button" value="+" onclick="form1.result.value=form1.result.value+'+'"style=" width:40px; height:40px;">
+<br><br>
+            <input type="button" value="4"onclick="form1.result.value=form1.result.value+'4'"style=" width:40px; height:40px;">
+            <input type="button" value="5" onclick="form1.result.value=form1.result.value+'5'"style=" width:40px; height:40px;">
+            <input type="button" value="6" onclick="form1.result.value=form1.result.value+'6'"style=" width:40px; height:40px;">
+            <input type="button" value="-" onclick="form1.result.value=form1.result.value+'-'"style=" width:40px; height:40px;">
+<br><br>
+            <input type="button" value="7" onclick="form1.result.value=form1.result.value+'7'"style=" width:40px; height:40px;">
+            <input type="button" value="8" onclick="form1.result.value=form1.result.value+'8'"style=" width:40px; height:40px;">
+            <input type="button" value="9" onclick="form1.result.value=form1.result.value+'9'"style=" width:40px; height:40px;">
+            <input type="button" value="x" onclick="form1.result.value=form1.result.value+'*'"style=" width:40px; height:40px;">
+<br><br>
+            <input type="button" value="0" onclick="form1.result.value=form1.result.value+'0'"style=" width:40px; height:40px;">
+            <input type="button" value="/" onclick="form1.result.value=form1.result.value+'/'"style=" width:40px; height:40px;" >
+            <input type="button" value="." onclick="form1.result.value=form1.result.value+'.'"style=" width:40px; height:40px;" >
+            <input type="button" value="=" onclick="form1.result.value=eval(form1.result.value)"style=" width:40px; height:40px;">
+        <br><br>
+        <input type="button" id="clear" value="clear all "onclick="form1.result.value=''"style=" width:100px; height:40px;">
+
+        </form>
+        </div>
+    </center>
+    </body>
+</html>
+        
